@@ -11,7 +11,7 @@ The goal of this project was not to build a functional application, but to demon
 ## Live Case Study
 The case study is hosted using **GitHub Pages** and can be accessed at:
 
-**http://medico.casestudy/**
+**https://yuioytffhio.github.io/medico-ux-case-study/**
 
 ---
 
