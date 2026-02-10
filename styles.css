@@ -9,7 +9,7 @@
 
 html, body {
     height: 100%;
-    background: #ffffff;
+    background: #0f1b9b;
     color: var(--text);
     font-family: 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
