@@ -30,23 +30,6 @@ No backend, frontend logic, or real data storage is implemented. All designs are
 
 ---
 
-## Repository Structure
-medico-ux-case-study/
-│
-├── index.html # Main case study webpage
-├── images/ # Screenshots, sketches, wireframes, personas
-│ ├── survey.png
-│ ├── persona1.png
-│ ├── persona2.png
-│ ├── journey-map.png
-│ ├── wireframes.png
-│ └── prototype.png
-│
-└── README.md # Project documentation
-
-
----
-
 ## Tools Used
 - **Figma** – Wireframes and interactive prototype
 - **Google Forms** – User research survey
@@ -62,4 +45,3 @@ This project was completed individually and follows the SOEN 357 grading criteri
 
 ## Author
 **Hiba Talbi** (40278717)
-SOEN 357 – Winter 2025

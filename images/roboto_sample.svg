@@ -1,0 +1,38 @@
+<svg viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .heading { font-family: Arial, sans-serif; font-size: 32px; font-weight: 700; fill: #192204; }
+      .sample-label { font-family: Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #6b6b6b; letter-spacing: 1px; }
+      .sample-text { font-family: Arial, sans-serif; font-size: 22px; fill: #2c2c2c; }
+      .light { font-weight: 400; }
+      .medium { font-weight: 500; }
+      .bold { font-weight: 700; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="450" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="300" y="50" text-anchor="middle" class="heading">Roboto Typography</text>
+  
+  <!-- Regular Weight (400) -->
+  <text x="40" y="110" class="sample-label">REGULAR 400</text>
+  <text x="40" y="150" class="sample-text light">The quick brown fox jumps over the lazy dog</text>
+  <text x="40" y="175" class="sample-text light" font-size="16">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm</text>
+  
+  <!-- Divider -->
+  <line x1="40" y1="210" x2="560" y2="210" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Medium Weight (500) -->
+  <text x="40" y="240" class="sample-label">MEDIUM 500</text>
+  <text x="40" y="280" class="sample-text medium">The quick brown fox jumps over the lazy dog</text>
+  <text x="40" y="305" class="sample-text medium" font-size="16">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm</text>
+  
+  <!-- Divider -->
+  <line x1="40" y1="340" x2="560" y2="340" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Bold Weight (700) -->
+  <text x="40" y="370" class="sample-label">BOLD 700</text>
+  <text x="40" y="410" class="sample-text bold">The quick brown fox jumps over the lazy dog</text>
+</svg>
