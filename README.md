@@ -15,31 +15,11 @@ The case study is hosted using **GitHub Pages** and can be accessed at:
 
 ---
 
-## Project Scope
-This project focuses on:
-- User research and survey design
-- Persona creation
-- User journey mapping
-- Sketching and wireframing
-- Visual design decisions
-- Interactive prototyping using Figma
-- Usability testing planning
-- Reflection and iteration
-
-No backend, frontend logic, or real data storage is implemented. All designs are conceptual and intended for academic purposes only.
-
----
-
 ## Tools Used
 - **Figma** – Wireframes and interactive prototype
 - **Google Forms** – User research survey
 - **GitHub Pages** – Hosting the case study
 - **HTML/CSS** – Structuring the case study webpage
-
----
-
-## Notes
-This project was completed individually and follows the SOEN 357 grading criteria. All visuals, content, and design decisions reflect the UX process and iterations documented in the case study.
 
 ---
 
