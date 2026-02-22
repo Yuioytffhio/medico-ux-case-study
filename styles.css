@@ -229,3 +229,26 @@ blockquote {
     font-size: 14px;
     margin-top: 36px;
 }
+
+/* Table of contents (paper style) */
+.toc {
+    margin: 18px 0 22px 0;
+    padding: 0;
+}
+.toc-title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #2c2c2c;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.0px;
+}
+.toc ul { list-style: none; padding-left: 12px; margin: 0; }
+.toc li { margin: 8px 0; color: #2c2c2c; font-size: 18px; }
+.toc li.toc-h3 { margin-left: 18px; font-size: 15px; color: #444; }
+.toc a { color: inherit; text-decoration: none; cursor: pointer; }
+.toc a:focus, .toc a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+
+/* Ensure links look like normal text when printed or exported to PDF */
+@media print {
+  .toc a { text-decoration: none; }
+}

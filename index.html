@@ -3,17 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <title>Medico – Chronic Health Companion App</title>
+        <meta name="description" content="Medico is a chronic health companion app designed to help users manage medications and medical appointments with a friendly and supportive approach.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <main class="container">
             <header class="article-header">
-                <div class="header-meta">SOEN 357 – User Interface Design</div>
+                <div class="header-meta">SOEN 357 – Mini Project</div>
                 <h1>Medico – Chronic Health Companion App</h1>
                 <div class="byline">Written by Hiba Talbi 40278717.</div>
             </header>
-            <p><strong>SOEN 357 – UI/UX Design of a Health Companion App</strong></p>
+            <nav id="table-of-contents" class="toc" aria-label="Table of contents">
+                <div class="toc-title"><strong>Table of Contents</strong></div>
+                <ul></ul>
+            </nav>
 
         <hr>
 
@@ -34,12 +38,12 @@
 
         </section>
 
-        <hr>
 
             <section>
-                <h2>2. Problem Statement</h2>
+                <h3>1.2. Problem Statement</h3>
         <p>
-            Medico aims to support users in remembering their medications and managing their health routines. Managing multiple medications can easily become confusing and discouraging, which may lead users to stop keeping track altogether.
+            Medico aims to support users in remembering their medications and managing their health routines. 
+            Managing multiple medications, or keeping track with multiple appointments can easily become confusing and discouraging, which may lead users to stop keeping track altogether.
         </p>
         <p>
             In addition, many existing health applications lack a human and encouraging tone, which can make the experience feel cold or overwhelming. Medico aims to solve this problem by providing clear reminders while maintaining a friendly, supportive, and motivating approach.
@@ -50,65 +54,186 @@
         <hr>
 
             <section>
-                <h2>3. Target Users</h2>
+                <h2>2. User Research and Methodology</h2>
+                <h3>2.1. Target Users</h3>
         <p>
             This application is designed to accompany users of different age groups in their daily lives by offering guidance and support.
         </p>
-        <p>User groups include:</p>
+        <p>This application aims to target the following user groups:</p>
         <ul>
             <li>Teenagers or adults with chronic illnesses</li>
             <li>Users who need to keep up with daily medications</li>
             <li>Users managing regular doctor appointments</li>
-            <li>Older adults or busy students and professionals</li>
         </ul>
+        <p>Overall, it targets users who have a busy schedule, perhaps older adults or teenagers, that wish to start 
+            planning their health routines and need a simple, intuitive, and encouraging application to support them in doing so.
+        </p>
         <p>
-            The app aims to be accessible to users who may not be very comfortable with technology and therefore require a simpler and clearer user interface. Medico provides the necessary features in the least confusing way possible, prioritizing clarity and ease of use.
+            The app aims to be accessible to users who may not be very comfortable with technology 
+            and therefore require a simpler and clear user interface. 
+            Medico provides the necessary features in the least confusing way possible, 
+            prioritizing clarity and ease of use.
         </p>
 
         </section>
 
-        <hr>
 
             <section>
-                <h2>4. User Research Methodology</h2>
+                <h3>2.2. Survey</h3>
         <p>
-            In order to properly design the application, a user research survey was conducted to collect insights on how the application should be structured and which features would be most useful.
+            In order to properly design the application, 
+            a user research survey was conducted to collect insights on how the application 
+            should be structured and which features would be most useful.
         </p>
         <p>
-            An anonymous online survey lasting approximately 5–10 minutes was conducted using Google Forms. The survey targeted individuals living with chronic health conditions or those closely managing such conditions.
+            The survey was anonymous and online, lasting approximately 5–10 minutes and conducted 
+            using Google Forms. It targeted individuals living with chronic health conditions 
+            or those close to someone managing such conditions.
         </p>
         <p>
+            Check out the survey here: 
             <a href="https://forms.gle/4YT36XMRDRWoSY7MA" target="_blank" rel="noopener noreferrer">https://forms.gle/4YT36XMRDRWoSY7MA</a>
         </p>
         
-
-        <hr>
-
-        <h2>4.1 Survey Design</h2>
         <p>The survey contained the following sections:</p>
         <ul>
-            <li><strong>Background Information:</strong> Collects the user’s age range, health condition, and number of medications taken regularly.</li>
-            <li><strong>Current Behavior:</strong> Explores how users currently remember their medications, how often they forget doses, and how they track doctor appointments.</li>
-            <li><strong>User Needs:</strong> Identifies difficulties in managing medications, frustrations with current health apps, desired features, and the importance of tone, simplicity, and personalization.</li>
+            <li><strong>Background Information</strong></li>
+            <li><strong>Current Behavior</strong> </li>
+            <li><strong>User Needs</strong> </li>
         </ul>
 
         </section>
 
-        <hr>
-
             <section>
-                <h2>4.2 Survey Results & Key Findings</h2>
+                <h3>2.3. Results & Key Findings</h3>
         <p>
-            Unfortunately, the survey did not receive a large number of responses, resulting in a limited sample size (the survey was shared on Instagram and Reddit). However, a few relevant trends were still observed.
+            Unfortunately, the survey did not receive a large number of responses (only 7), 
+            resulting in a limited sample size (the survey was shared on Instagram and Reddit). 
+            However, a few relevant trends were still observed.
         </p>
+
+        <p><strong>Background Information Section:</strong></p>
+        <p>
+            This section aims to collect the repondent's age range, health condition, and 
+            number of medications taken regularly.
+        </p>
+        <p>
+            Firstly, the demographic of the respondents had a vast majority of young adults (18-24 years old),
+            with only 22% being aged 25-34. This is mainly due to the fact that the survey was shared among friends,
+            and did not unfortunately reach a wider audience. This is a limitation of the survey, and it would have been 
+            ideal to have a more balanced age distribution to better understand the needs of different user groups.
+        </p>
+
+        <p>
+            There was a variety of health conditions among respondents. The answers were the following:
+            <ul>
+                <li>
+                    Diabetes
+                </li>
+                <li>
+                    Celiac disease
+                </li>
+                <li>
+                    ADHD
+                </li>
+                <li>
+                    Vitiligo, HSV2, ADHD, transgender
+                </li>
+                <li>
+                    HSV2
+                </li>
+                <li>
+                    Transgender 
+                </li>
+                <li>
+                    Leg Condition (wasn't specified)
+                </li>
+            </ul>
+            
+        </p>
+
+        <p>
+            The majority of respondens take 1-2 medications regularly, with only 11% taking 5+.
+        </p>
+
+        <p><strong>Current Behavior Section:</strong></p>
+        <p>
+            This section explores how users currently remember their medications, 
+            how often they forget doses, and how they track doctor appointments.
+        </p>
+
+        <p>
+            The majority of respondents rely on their memory to remember their medications, 
+            while some use alarms on phones, written notes, pill organizers or they simply forget to take them. 
+            This indicates the possible need for a reliable and consistent reminder system, 
+            which is the main goals of Medico.
+        </p>
+
+        <p>
+            When asked "How do you currently keep track of doctor appointments?",
+            the majority responded that they rely on calendar apps, memory, or that
+            they struggle to remember.
+        </p>
+
+        <p><strong>User Needs Section:</strong></p>
+
+        <p>
+            This section identifies difficulties in managing medications, 
+            frustrations with current health apps, 
+            desired features, and the importance of tone, simplicity, and personalization.
+        </p>
+        
+        <p>
+            When asked about what they find the most challenging about managing medications, most users voted
+            that they struggle to stay motivated and consistent. 
+        </p>
+
+        <p>
+            When asked about frustrations with current health apps, 
+            users expressed that they find them to be too complicated or that they simply didn't use any health apps.
+        </p>
+
+        <p>
+            When asked about desired features, users expressed the importance of having a simple and intuitive interface, 
+            clear medication reminders, and a way to track their health progress over time. 
+        </p>
+
+        <p>
+            When asked about how important would a friensly and encouran=ging tone be to the user for a health app,
+            60% picked Somewhat importnat, with 30% picking very important and 10% picking not important.
+        </p>
+
+        <p>
+            Lastly, the last question asked was "What would make a medication reminder app truly
+            helpful for you?" and the answers were the following:
+            <ul>
+                <li>Notifications</li>
+                <li>If it shows a yearly graph(improved health) real metrics to keep track of improvement</li>
+                <li>
+                    Lock my screen with a big message have you taken your meds 
+                    at the hours I appointe the app to remind me
+                </li>
+                <li> 
+                    NFT tag connection from app to pill organizer that automatically clicks meds taken and what time
+                </li>
+                <li>Easy to use</li>
+            </ul>
+        </p>
+        
         <p><strong>Key Findings:</strong></p>
-        <ul>
-            <li>Most respondents expressed the importance of having a personalized experience when using a health application. This directly supports Medico’s goal of personalization and the inclusion of a mascot to make the app feel more engaging and “alive.”</li>
-            <li>When asked "What would make a medication reminder app truly helpful for you?", one respondent replied: "If it shows a yearly graph (improved health) — real metrics to keep track of improvement." This suggestion was not initially planned but was later incorporated into the wireframe designs.</li>
-            <li>Users expressed a preference for relevant and precise notifications, specifically indicating which medication to take at the requested time.</li>
-        </ul>
         <p>
-            This also highlights that users do not appreciate being overwhelmed with notifications. Excessive notifications often lose their meaning or get ignored altogether. A simple and direct notification, containing only the necessary information and delivered at the right time, is far more effective.
+            Overall, most respondents expressed the importance of having a clear and simple,
+            yet personalized health application. They highlighted how impotrnat relevant and 
+            precise notifications are, specifically indicating which medication to take at the requested time.
+            In addition, one comment that influenced the design of the application was the suggestion
+            of having a yearly graph to track health progress. This idea was incorporated into the 
+            wireframe designs.
+        </p>
+        <p>
+            Users do not appreciate being overwhelmed with notifications. 
+            Excessive notifications often lose their meaning or get ignored altogether. 
+            A simple and direct notification, containing only the necessary information and 
+            delivered at the right time, is far more effective.
         </p>
 
         </section>
@@ -116,13 +241,15 @@
         <hr>
 
             <section>
-                <h2>5. User Personas</h2>
+                <h2>3. User Personas</h2>
         <p>
-            Chronic health conditions vary greatly, and users therefore have diverse needs. Despite these differences, all users must be supported within a single application.
-        </p>
-        <p>
-            Two personas were created based on responses collected from the survey. 
-            Creating these personas helps keep user needs in mind throughout the design process and ensures that design decisions remain user-centered.
+            Chronic health conditions vary greatly, and users therefore have diverse needs. 
+            Despite these differences, all users must be supported within a single application.
+            In order to provide the best possible user experience, to a broad range of users,
+            it is crucial to understand the different user needs and requirements. To do so, 
+            two personas were created based on responses collected from the survey. 
+            Creating these personas helps keep user needs in mind throughout the design process 
+            and ensures that design decisions remain user-centered.
         </p>
         <p>
             The user needs and requirements captured by the personas are the following:
@@ -130,25 +257,31 @@
         <ul>
             <li>Provide clear medication reminders with notifications containing only relevant information</li>
             <li>Offer an easy and quick way for users to log their medication intake</li>
-            <li>Maintain a friendly and encouraging tone without compromising the seriousness of the app’s purpose</li>
+            <li>Offer a way to track and visualize health progress over time</li>
+            <li>Offer an easy and quick way to keep track of their upcoming appointments</li>
+            <li>Maintain a friendly and encouraging tone without compromising the seriousness 
+                of the app’s purpose</li>
             <li>Ensure accessibility through readable fonts and a simple, intuitive interface</li>
         </ul>
         <p>
-            <strong>Persona 1</strong> represents a younger user who is tech-savvy but struggles with consistency in medication intake due to a busy lifestyle. 
+            <strong>Persona 1</strong> represents a younger user who is tech-savvy 
+            but struggles with consistency in medication intake due to a busy lifestyle. 
         </p>
         <img id="persona1" src="images/persona1.png" alt="Persona 1">
         <p>
-            <strong>Persona 2</strong> represents an older adult who has a heavy schedule and requires a straightforward and easy-to-navigate application.
+            <strong>Persona 2</strong> represents an older adult who has a heavy schedule 
+            and requires a straightforward and easy-to-navigate application, that would indicate 
+            to him his progress and motivate him to stay consistent with his health routine.
         </p>
         <img id="persona2" src="images/persona2.png" alt="Persona 2">
 
-        <hr>
 
             <section>
-                <h2>6. User Journey Mapping</h2>
+                <h3>3.1. User Journey Mapping</h3>
         <p>
             To properly proceed with the design of the application, various use cases were identified.  
-            Two User journey Maps were created to visualize how the personas would interact with Medico throughout their daily routines.
+            Two User journey Maps were created to visualize how the personas would 
+            interact with Medico throughout their daily routines.
         </p>
 
         </section>
@@ -156,7 +289,9 @@
         <hr>
 
             <section>
-                <h2>7. Sketches</h2>
+                <h2>4. Design Process</h2>
+                Designing an application involves multiple steps, one of which is finding visual inspiration.
+                <h3>4.1. Sketches</h3>
         <p>The design process began with simple sketches that outlined the overall structure and functionality of the app. These sketches included the following pages:</p>
         <ul>
             <li>Welcome page</li>
@@ -181,10 +316,8 @@
 
         </section>
 
-        <hr>
-
             <section>
-                <h2>8. Wireframes</h2>
+                <h3>4.2. Wireframes</h3>
         <p>
             Once satisfied with the overall concept, low-fidelity wireframes were created. These wireframes helped define the layout and features of each page while keeping the design simple before moving into the high-fidelity UI/UX design phase in Figma.
         </p>
@@ -192,10 +325,8 @@
 
         </section>
 
-        <hr>
-
             <section>
-                <h2>9. Storyboard</h2>
+                <h3>4.3. Storyboard</h3>
         <p>
             A storyboard was created to illustrate how the application would be used in a real-life context. It captures one of the many possible scenarios in which Medico would support a user throughout their day.
         </p>
@@ -203,20 +334,12 @@
 
         </section>
 
-        <hr>
-
-            <section>
-                <h2>10. Design Phase</h2>
-        <p>
-            Designing an application involves multiple steps, one of which is finding visual inspiration.
-        </p>
-
-        <h3>10.1 The Mascot</h3>
+        <h3>4.4. The Mascot</h3>
         <p>
             The inspiration behind the mascot comes from personal experience with applications such as Duolingo. Duolingo’s mascot plays a major role in making the app engaging and memorable. While Medico does not aim to replicate Duolingo’s frequent notification style, the idea of a friendly mascot that encourages users was a strong source of inspiration.
         </p>
 
-        <h3>10.2 Color Palette</h3>
+        <h3>4.5. Color Palette</h3>
         <p>
             Initially, an orange color palette was explored to create a warm and welcoming feeling. However, it quickly began to resemble a pet-related application. 
         </p>
@@ -245,7 +368,7 @@
             <div class="swatch dark" style="background:#262626;" title="#262626"><span class="swatch-label">#262626</span></div>
         </div>
 
-        <h3>10.3 Typography</h3>
+        <h3>4.6. Typography</h3>
         <p>
             Medico is meant to be intuitive, clear, and visually consistent. For this reason, a simple and readable font was chosen: Roboto. Roboto is commonly used on Android devices, is highly legible, and does not distract from the content.
         </p>
@@ -253,7 +376,7 @@
             <img src="images/roboto_sample.svg" alt="Roboto sample">
         </div>
 
-        <h3>10.4 Icons and Illustrations</h3>
+        <h3>4.7. Icons and Illustrations</h3>
         <p>
             Icons were selected from Flaticon (<a href="https://www.flaticon.com " target="_blank" rel="noopener noreferrer">https://www.flaticon.com</a> ), 
             and used under their free license with attribution. I ensured that a consistent icon set was used throughout the application. Icons with thicker lines were chosen to match the visual style of the mascot that has thick bold lines.
@@ -268,13 +391,14 @@
             <div class="icon-item"><img src="images/icons/checkmark.png" alt="Checkmark"></div>
             <div class="icon-item"><img src="images/icons/pencil-green.png" alt="Pencil"></div>
             <div class="icon-item"><img src="images/icons/search-dark green.png" alt="Search"></div>
+            <div class="icon-item"><img src="images/icons/clock-black.png" alt="Clock"></div>
         </div>
 
         <p>
             The mascot was hand-drawn by myself using Resprite, a pixel art software. The design was kept minimalistic to avoid overwhelming users and lose the meaning it's supposed to convey which is friendliness and warmth.
         </p>
 
-        <h3>10.5 Naming & Logo</h3>
+        <h3>4.8. Naming & Logo</h3>
         <p>
             The name of the app and the mascot were intentionally kept the same to reinforce brand recognition. The logo is simply the face of the mascot.
         </p>
@@ -288,14 +412,13 @@
         <hr>
 
             <section>
-                <h2>11. Prototype</h2>
+                <h2>5. Prototype</h2>
         <p>
             The final interactive prototype was created in Figma. It demonstrates the various interactions within the app and showcases its main features.
         </p>
-        <img id="prototype-demo" src="videos/prototype-demo.gif" alt="Prototype demo">
         <p>
-            View the interactive prototype on Figma:
-            <a href="https://www.figma.com/proto/d7uMEbJ9bt8JFxKxfDdplm/Medico-ux-case-study?node-id=37-129&p=f&t=n6VxRd0Cf8cVx3oY-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=37%3A129&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">Click here</a>
+            Try it yourself:
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/d7uMEbJ9bt8JFxKxfDdplm/Medico-ux-case-study?node-id=37-129&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=37%3A129&embed-host=share" allowfullscreen></iframe>
         </p>
         
 
@@ -304,7 +427,7 @@
         <hr>
 
             <section>
-                <h2>12. Final Design</h2>
+                <h2>6. Final Design</h2>
         <p>
             The application opens with a welcome page where the mascot, Medico, greets the user and briefly explains the app’s purpose.
         </p>
@@ -343,7 +466,7 @@
         <hr>
 
             <section>
-                <h2>13. Usability Testing</h2>
+                <h2>7. Usability Testing</h2>
         <p>(To be completed)</p>
 
         </section>
@@ -351,7 +474,7 @@
         <hr>
 
             <section>
-                <h2>14. Reflection</h2>
+                <h2>8. Reflection</h2>
         <p>
             While Medico successfully addresses medication and appointment tracking, future iterations could explore caregiver integration and professional dashboards. Conducting surveys with healthcare professionals would provide valuable insight into their needs and expectations.
         </p>
@@ -364,7 +487,7 @@
         <hr>
 
             <section>
-                <h2>15. Conclusion</h2>
+                <h2>9. Conclusion</h2>
                 <p>
                     This research allowed for the design of a health companion application that supports users managing chronic conditions in a fun, intuitive, and motivating manner. Medico uses a friendly mascot to deliver personalized reminders while avoiding unnecessary complexity or information overload.
                 </p>
@@ -375,5 +498,26 @@
 
             <footer class="footer-note">Last updated: Feb 10, 2026</footer>
         </main>
+                <script>
+                (function(){
+                    const toc = document.getElementById('table-of-contents');
+                    if(!toc) return;
+                    const list = toc.querySelector('ul');
+                    const headings = document.querySelectorAll('main h2, main h3');
+                    if(!headings.length){ toc.style.display = 'none'; return; }
+                    function slugify(t){ return t.toLowerCase().trim().replace(/[^\w\s-]/g,'').replace(/\s+/g,'-'); }
+                    headings.forEach(h => {
+                        if(!h.id) h.id = slugify(h.textContent);
+                        const li = document.createElement('li');
+                        li.className = 'toc-' + h.tagName.toLowerCase();
+                        const a = document.createElement('a');
+                        a.href = '#' + h.id;
+                        a.textContent = h.textContent;
+                        a.setAttribute('aria-label', 'Jump to ' + h.textContent);
+                        li.appendChild(a);
+                        list.appendChild(li);
+                    });
+                })();
+                </script>
     </body>
 </html>
